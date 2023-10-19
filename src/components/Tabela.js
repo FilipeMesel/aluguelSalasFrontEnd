@@ -43,7 +43,7 @@ console.log("reunioes: ",reunioes.reunioes)
             <th>Grau</th>
             <th>Sala</th>
             <th>Data Inicial</th>
-            <th colSpan={2}>Data Final</th>
+            <th>Data Final</th>
         </tr>
       </thead>
       <tbody>
@@ -55,12 +55,11 @@ console.log("reunioes: ",reunioes.reunioes)
             <td>{reuniao.sala}</td>
             <td>{reuniao.dataInicial}</td>
             <td>{reuniao.dataFinal}</td>
-            <td>
-                {/* <button onClick={()=> deletar(reuniao.id)}>Cancelar</button> */}
+            {/* <td>
                 <Button  onClick={()=> deletar(reuniao.id)} variant="warning" type="submit">
                     Cancelar
                 </Button>
-            </td>
+            </td> */}
         </tr>
         ))}
       </tbody>
