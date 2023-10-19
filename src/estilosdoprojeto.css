@@ -1,0 +1,59 @@
+/* App.css */
+
+/* App.css */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background-color: black;
+    color: #c9aa71; /* Amarelo caramelo */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .container {
+    margin-top:30px;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 50%;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid #c9aa71; /* Amarelo caramelo */
+  }
+  
+  h1 {
+    color: #c9aa71; /* Amarelo caramelo */
+  }
+  
+  table {
+    width: 60%;
+    margin-left: 10px;
+    background-color: black;
+    border: 2px solid #c9aa71; /* Amarelo caramelo */
+  }
+  
+  th {
+    background-color: #c9aa71; /* Amarelo caramelo */
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c9aa71; /* Amarelo caramelo */
+    color: black;
+  }
+  
+  button {
+    background-color: #c9aa71; /* Amarelo caramelo */
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: black;
+    color: #c9aa71; /* Amarelo caramelo */
+  }
